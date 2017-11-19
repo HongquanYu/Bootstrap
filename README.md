@@ -16,14 +16,14 @@ npm start
 - Detailed show every elements in the webpage.
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=download&id=0B7q_2EZFLAtqaXlzNExVZHZPekE" width="350"/>
+  <img src="https://drive.google.com/uc?export=download&id=1JVD4zMryU-RjZKMXsz7Xrqb3aXSPc_Bf" width="350"/>
 </p>
 
 - Page open in a **small - large screen browser(tablet browser)**
 - show detailed page with adjusted style if in a small screen browser. 
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=download&id=0B7q_2EZFLAtqRzVlcDZRVHNTZDQ" width="250"/>
+  <img src="https://drive.google.com/uc?export=download&id=1Er5ZZiltTIFFHj2lofUry0R1tPop5b6r" width="250"/>
 </p>
 
 - Page open in a **extra small-screen browser(Mobile phone browser)**
