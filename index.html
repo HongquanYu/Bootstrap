@@ -33,7 +33,7 @@
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a data-toggle="modal" data-target="#">
                         <span class="fa fa-sign-in"></span>Login</a>
                 </span>
             </div>
@@ -44,25 +44,61 @@
         <div class="modal-dialog" role="content">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Login</h4>
+                    <h4 class="modal-title">Reserve a table</h4>
                     <button type="button" class="close" data-dismiss="modal">
                         &times;
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form class="form-inline">
-                        <div class="form-group">
-                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                            <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                    <form class="col-sm-8">
+                        <div class="form-group row">
+                            <label for="guestsNumber" class="col-sm-2">Number of Guests</label>
+                            <div class="offset-2">
+                                <input name="one" type="radio" id="one">
+                                <label for="radio1">1</label>
+                            
+                                <input name="one" type="radio" id="one">
+                                <label for="radio1">2</label>
+                            
+                                <input name="one" type="radio" id="one">
+                                <label for="radio1">3</label>
+                            
+                                <input name="one" type="radio" id="one">
+                                <label for="radio1">4</label>
+                            
+                                <input name="one" type="radio" id="one">
+                                <label for="radio1">5</label>
+                            
+                                <input name="one" type="radio" id="one">
+                                <label for="radio1">6</label>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label class="sr-only" for="exampleInputPassword3">Password</label>
-                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+
+                        <div class="form-group row">
+                            <label for="section" class="col-sm-2">Section</label>
+
                         </div>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox"> Remember me
-                            </label>
+
+                        <div class="form-group row">
+                            
+                                <label for="dateTime" class="col-sm-3 col-form-label">Date and Time</label>
+                                <label class="col-sm-3">
+                                    <div class="input-group">
+                                        <div class="input-group-addon">
+                                            <i class="fa fa-calendar"></i>
+                                        </div>
+                                        <input class="form-control text-muted" id="date1" name="date1" placeholder="Date" type="text"/>
+                                    </div>
+                                </label>
+                                <label class="col-sm-4">
+                                    <div class="input-group">
+                                        <div class="input-group-addon">
+                                            <i class="fa fa-clock-o"></i>
+                                        </div>
+                                        <input class="form-control text-muted" id="date1" name="date1" placeholder="Time" type="text"/>
+                                    </div>
+                                </label>
+                            
                         </div>
                     </form>
                 </div>
@@ -85,10 +121,8 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col col-sm ">
-                    <a class="btn btn-sm nav-link btn-warning btn-block" href="#reserveTable" 
-                        data-toggle="tooltip" data-html="true" 
-                        title="Or Call us at<br><strong>+852 12345678</strong>"
-                        data-placement="bottom" role="button">Reserve Table</a>
+                    <a class="btn btn-sm nav-link btn-warning btn-block"
+                        data-toggle="modal" data-target="#loginModal" role="button">Reserve Table</a>
                 </div>
             </div>
             
